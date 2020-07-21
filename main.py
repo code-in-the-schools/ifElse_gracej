@@ -47,7 +47,7 @@ list2 = list(word2)
 for i in list2:
   if (i == "a" or i == "e" or i == "i" or i == "o" or i == "u" or i == "A" or i == "E" or i == "I" or i == "O" or i == "U"):
     print(i, ":", "vowel")
-  elif (i != "a" or i != "e" or i != "i" or i != "o" or i != "u" or i != "A" or i != "E" or i != "I" or i != "O" or i != "U" or i != "!"):
+  elif (i != "a" or i != "e" or i != "i" or i != "o" or i != "u" or i != "A" or i != "E" or i != "I" or i != "O" or i != "U" or i != ""):
     print(i, ":", "consonant")
   else:
     print(i, ":", "special character")
